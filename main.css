@@ -1,0 +1,147 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #feffed;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.title-container {
+  position: absolute;
+  top: 0px;
+  left: 0; /* Adjusted left positioning */
+  right: 0; /* Adjusted right positioning */
+  padding: 56px 20px; /* Adjust padding as needed */
+  background-color: #753bbd; /* Background color for the title container */
+  z-index: 1; /* Set z-index to bring the container above other elements */
+}
+
+.title {
+  font-size: 3rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 20px;
+  left: 100px; /* Adjust the value to give space between the image and title */
+  font-family: 'Oswald', sans-serif;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.logo {
+  position: absolute;
+  top: 24px;
+  left: 20px;
+  width: 70px; /* Adjust the width of the image */
+  height: auto; /* Maintain aspect ratio */
+  z-index: 2;
+}
+#loginButton {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #460b8f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#loginButton:hover {
+  background-color: #260252;
+}
+.container {
+  position: relative;
+  padding-top: 110px; /* Add padding to the top to push content below the title container */
+  padding-left: 10px; /* Add left padding to move content slightly to the right */
+  padding-bottom: 200px; /* Add padding to the bottom to make space for the footer */
+  min-height: calc(100vh - 160px);
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 20px;
+  margin-left: 10px; /* Add left margin to move the paragraph slightly to the right */
+}
+
+ul.opening-hours {
+  font-size: 1.2rem;
+  color: #666;
+  list-style-type: disc;
+  padding-left: 20px; /* Increase padding to move the list further to the right */
+  margin-top: 10px;
+  margin-left: 20px; /* Add left margin to move the list slightly to the right */
+}
+.search-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#searchInput {
+  padding: 10px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#searchButton {
+  padding: 10px 50px;
+  background-color: #753bbd;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#searchButton:hover {
+  background-color: #5c22a4;
+}
+
+.search-container {
+  margin-bottom: 20px; /* Add margin to create space below the search container */
+  text-align: center;
+}
+.genres-button-container {
+  text-align: center;
+}
+
+.genres-button {
+  display: inline-block;
+  padding: 20px 150px;
+  font-size: 1.5rem;
+  background-color: #753bbd;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.genres-button:hover {
+  background-color: #5c22a4;
+}
+
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  position: fixed; /* Fixed position to keep it at the bottom of the viewport */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: none; /* Initially hide the footer */
+  z-index: 999; /* Ensure the footer is above other content */
+}
+
+.contact-us {
+  text-align: center;
+}
+
+.contact-us h3 {
+  margin-bottom: 10px;
+}
+

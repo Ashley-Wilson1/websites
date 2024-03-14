@@ -106,6 +106,26 @@ ul.opening-hours {
   margin-bottom: 20px; /* Add margin to create space below the search container */
   text-align: center;
 }
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #753bbd;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-container button:hover {
+  background-color: #5c22a4;
+}
+
 .genres-button-container {
   text-align: center;
 }
